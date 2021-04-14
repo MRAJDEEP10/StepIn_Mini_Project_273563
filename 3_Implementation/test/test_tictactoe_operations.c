@@ -36,8 +36,8 @@ int main()
  * 
  */
 void test_checkwin(void){
-  TEST_ASSERT_EQUAL(1, checkwin('O','X','X','O','X','O','X','O','O'));
-  TEST_ASSERT_EQUAL(0,test_checkwin('O','X','O','X','X','O','X','O','X'));
+  
+  TEST_ASSERT_EQUAL(1,test_checkwin('X','X','X'));
 
 }
 

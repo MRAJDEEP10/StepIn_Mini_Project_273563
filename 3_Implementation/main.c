@@ -75,7 +75,7 @@ int main()
     else
         printf("==>\aGame draw");
 
-    getch();
+    
 
     return 0;
 }

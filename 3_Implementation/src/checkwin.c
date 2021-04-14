@@ -17,7 +17,7 @@
  * @param square 
  * @return int 
  */
-int checkwin(int square[])
+int checkwin(char square[])
 {
     if (square[1] == square[2] && square[2] == square[3])
         return 1;

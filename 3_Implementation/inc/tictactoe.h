@@ -16,17 +16,17 @@
  * @brief 
  * 
  * @param square 
- * @return int 
+ * @return char 
  */
-int checkwin(int square[]);
+int checkwin(char square[]);
 
 /**
  * @brief 
  * 
  * @param square 
  */
-void board(int square[]);
+void board(char square[]);
 
 
 
-#endif   __TICTACTOE_H__  
+#endif  

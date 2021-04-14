@@ -17,7 +17,7 @@
  * @param square 
  */
 
-void board(int square[])
+void board(char square[])
 {
     
     printf("\n\n\tTic Tac Toe\n\n");
