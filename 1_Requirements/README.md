@@ -13,3 +13,25 @@ An early variation of tic-tac-toe was played in the Roman Empire, around the fir
 ### **SWOT Analysis**
 
 ![SWOT](images/SWOT.png)
+
+## **4 W and 1 H:**
+
+## **Who:**
+
+  Anyone
+
+## **What:**
+
+  This project will act as automated tictactoe board where player can mark Xs and Os
+
+## **When:**
+
+  This project can be used during leisure and to pass time.
+  
+## **Where:**
+
+  This project can be implemented anywhere.
+
+## **How:**
+
+  This Project will require two players and will take input in form of Xs and Os and perform operations based on player choice, depending on which a player may win or game will end in a draw.
