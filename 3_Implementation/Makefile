@@ -9,13 +9,13 @@ $(BUILD):
 
 # All source files
  
-SRC = src/checkwin.c\
-src/board.c\
+SRC = src/checkresult.c\
+src/displayboard.c\
 main.c
 
 # All test source files
 TEST_SRC = test/test_tictactoe_operations.c\
-src/checkwin.c\
+src/checkresult.c\
 unity/unity.c\
 
 # To Check OS is Windows or Linux

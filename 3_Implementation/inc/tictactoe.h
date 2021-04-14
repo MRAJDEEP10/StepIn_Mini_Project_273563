@@ -18,14 +18,14 @@
  * @param square 
  * @return char 
  */
-int checkwin(char square[]);
+int checkresult(char square[]);
 
 /**
  * @brief 
  * 
  * @param square 
  */
-void board(char square[]);
+void displayboard(char square[]);
 
 
 

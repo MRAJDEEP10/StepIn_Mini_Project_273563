@@ -11,7 +11,7 @@
 #include <stdio.h>
 #include "tictactoe.h"
 
-char square[10] = { 'o', '1', '2', '3', '4', '5', '6', '7', '8', '9' };
+char square[10] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' };
 
 
 
@@ -22,10 +22,10 @@ int main()
     char mark;
     do
     {
-        board(square);
+        displayboard(square);
         player = (player % 2) ? 1 : 2;
 
-        printf("Player %d, enter a number:  ", player);
+        printf("Player %d, enter a number:  \n", player);
         scanf("%d", &choice);
 
         mark = (player == 1) ? 'X' : 'O';
@@ -59,21 +59,21 @@ int main()
             
         else
         {
-            printf("Invalid move ");
+            printf("Invalid move \n Play your Turn Again\n\n\n\n");
 
             player--;
         }
-        i = checkwin(square);
+        i = checkresult(square);
 
         player++;
     }while (i ==  - 1);
     
-    board(square);
+    displayboard(square);
     
     if (i == 1)
-        printf("==>\aPlayer %d win ", --player);
+        printf("==>\aPlayer %d win \n\n\n\n", --player);
     else
-        printf("==>\aGame draw");
+        printf("==>\aGame draw\n\n\n\n");
 
     
 
