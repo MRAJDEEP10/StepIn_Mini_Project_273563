@@ -1,7 +1,22 @@
-
+/**
+ * @file checkwin.c
+ * @author Mihir Rajdeep
+ * @brief 
+ * @version 0.1
+ * @date 2021-04-14
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include <stdio.h>
 #include "tictactoe.h" 
 
+/**
+ * @brief To Check Game Status(Whether A Player has won the Game, The Game ended in a draw or if the Game is still in progress.)
+ * 
+ * @param square 
+ * @return int 
+ */
 int checkwin(int square[])
 {
     if (square[1] == square[2] && square[2] == square[3])

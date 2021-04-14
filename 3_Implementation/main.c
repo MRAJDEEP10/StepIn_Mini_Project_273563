@@ -1,3 +1,13 @@
+/**
+ * @file main.c
+ * @author Mihir Rajdeep (you@domain.com)
+ * @brief TicTacToe Game in C Language
+ * @version 0.1
+ * @date 2021-04-14
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include <stdio.h>
 #include<conio.h>
 

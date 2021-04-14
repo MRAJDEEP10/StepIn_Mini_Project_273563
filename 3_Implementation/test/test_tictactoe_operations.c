@@ -30,6 +30,11 @@ int main()
   return UNITY_END();
 }
 
+
+/**
+ * @brief To check the Test cases
+ * 
+ */
 void test_checkwin(void){
   TEST_ASSERT_EQUAL(1, checkwin('O','X','X','O','X','O','X','O','O'));
   TEST_ASSERT_EQUAL(0,test_checkwin('O','X','O','X','X','O','X','O','X'));
