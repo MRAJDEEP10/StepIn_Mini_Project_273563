@@ -52,8 +52,10 @@ An early variation of tic-tac-toe was played in the Roman Empire, around the fir
 | ----- | ----- | ----- |
 | LR1 | Player 1 plays with 'X'| HR1 |
 | LR2 | Player 2 plays with 'O' | HR1 |
-| LR3 | Player 1 gets the First Turn | HR2 |
-| LR4 | Playyer 2 gets the Second Turn | HR2 |
+| LR3 | Player 1 gets the First Turn, can choose out of available square number| HR2 |
+| LR4 | Player 2 gets the Second Turn, can choose out of available square number | HR2 |
+| LR5 | If player selects an square number which is already chosen by another player display "Invalid move" | HR2
+| LR5 | If player selects a square number out of valid number display "Invalid move" | HR2
 | LR5 | If Player 1 gets 3 Xs in vertical, horizontal or diagonal row, Player 2 will lose.| HR3 |
 | LR6 | If Player 2 gets 3 Os in vertical, horizontal or diagonal row, Player 2 will lose. | HR3 |
 | LR7 | If all the turns are complete and no one wins, Game ends in a draw| HR3 |
