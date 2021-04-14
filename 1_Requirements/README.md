@@ -22,7 +22,9 @@ An early variation of tic-tac-toe was played in the Roman Empire, around the fir
 
 ## **What:**
 
-  This project will act as automated tictactoe board where player can mark Xs and Os
+  This project will act as automated tictactoe board where player can mark Xs and Os.
+
+  As a brain Teaser for Kids
 
 ## **When:**
 
@@ -35,3 +37,23 @@ An early variation of tic-tac-toe was played in the Roman Empire, around the fir
 ## **How:**
 
   This Project will require two players and will take input in form of Xs and Os and perform operations based on player choice, depending on which a player may win or game will end in a draw.
+
+## High Level Requirements:
+
+| ID | Description |
+| ----- | ----- |
+| HR1 | Player 1 Lose/Win |
+| HR2 | Player 2 Lose/Win |
+| HR3 | Game Ends in a Draw |
+
+## Low Level Requirements:
+
+| ID | Description | HLR ID |
+| ----- | ----- | ----- |
+| LR1 | Player 1 plays with 'X'| HR1 |
+| LR2 | Player 2 plays with 'O' | HR1 |
+| LR3 | Player 1 gets the First Turn | HR2 |
+| LR4 | Playyer 2 gets the Second Turn | HR2 |
+| LR5 | If Player 1 gets 3 Xs in vertical, horizontal or diagonal row, Player 2 will lose.| HR3 |
+| LR6 | If Player 2 gets 3 Os in vertical, horizontal or diagonal row, Player 2 will lose. | HR3 |
+| LR7 | If all the turns are complete and no one wins, Game ends in a draw| HR3 |
