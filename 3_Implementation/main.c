@@ -62,7 +62,6 @@ int main()
             printf("Invalid move ");
 
             player--;
-            getch();
         }
         i = checkwin(square);
 
