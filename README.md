@@ -1,4 +1,4 @@
-# TICTACTOE
+# **TICTACTOE**
 
 ![Images](5_ImagesandVideos/tictactoe1.png)
 
