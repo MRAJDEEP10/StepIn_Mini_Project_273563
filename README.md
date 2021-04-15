@@ -2,9 +2,9 @@
 
 ![Images](5_ImagesandVideos/tictactoe1.png)
 
-| Build |
+| Build    |       Unity |
 
-| [![C/C++ CI - Build Status](https://github.com/MRAJDEEP10/StepIn_Mini_Project_273563/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/MRAJDEEP10/StepIn_Mini_Project_273563/actions/workflows/c-cpp.yml) |
+| [![C/C++ CI - Build Status](https://github.com/MRAJDEEP10/StepIn_Mini_Project_273563/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/MRAJDEEP10/StepIn_Mini_Project_273563/actions/workflows/c-cpp.yml) | |[![Unit Testing - Unity](https://github.com/MRAJDEEP10/StepIn_Mini_Project_273563/actions/workflows/unity.yml/badge.svg)](https://github.com/MRAJDEEP10/StepIn_Mini_Project_273563/actions/workflows/unity.yml) |
 
 ## Folder Structure
 
