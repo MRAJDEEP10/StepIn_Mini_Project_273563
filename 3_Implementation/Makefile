@@ -53,3 +53,6 @@ run:all
 test:$(BUILD)
 	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT).$(EXEC)
 	./$(TEST_OUTPUT).$(EXEC)
+
+clean:
+	$(RM) $(call FixPath,$(BUILD)/*)

@@ -6,7 +6,10 @@
 
 #define PROJECT_NAME    "TICTACTOE"
 
-void test_checkwin(void);
+void test_checkplayer1win(void);  //To test cases for Player1 Win
+void test_checkplayer2win(void);  //To test cases for Player2 Win
+void test_checkdraw(void);        //To test cases for draw
+void test_activegame(void);       // To test cases for game which are in progress.
 
 
 
@@ -23,7 +26,11 @@ int main()
   UNITY_BEGIN();
 
 /* Run Test functions */
-  RUN_TEST(test_checkwin);
+  RUN_TEST(test_checkplayer1win);
+  RUN_TEST(test_checkplayer2win);
+  RUN_TEST(test_checkdraw);
+  RUN_TEST(test_activegame);
+  
   
 
   /* Close the Unity Test Framework */
@@ -35,9 +42,23 @@ int main()
  * @brief To check the Test cases
  * 
  */
-void test_checkwin(void){
+void test_checkplayer1win(void){
+  char square1[10] = {'0','O','X','X','X','O','O','X','O','O' };
+  TEST_ASSERT_EQUAL(1,checkresult(square1));
   
-  TEST_ASSERT_EQUAL(1,test_checkwin('X','X','X'));
-
 }
 
+void test_checkplayer2win(void){
+  char square2[10] = {'0','X','O','O','O','X','X','O','X','X'};
+  TEST_ASSERT_EQUAL(1,checkresult(square2));
+}
+
+void test_checkdraw(void){
+  char square3[10] = {'0','X','O','X','X','O','O','O','X','X'};
+  TEST_ASSERT_EQUAL(0,checkresult(square3));
+}
+
+void test_activegame(void){
+  char square4[10]={'0','X','2','3','4','5','6','O','8','X'};
+  TEST_ASSERT_EQUAL(-1,checkresult(square4));
+}
