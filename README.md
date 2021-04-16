@@ -6,6 +6,7 @@
 ------|----------|-------|--------------
 
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/93bfb8cc9bbb4a50ae70eca4362c6da0)](https://app.codacy.com/gh/MRAJDEEP10/StepIn_Mini_Project_273563?utm_source=github.com&utm_medium=referral&utm_content=MRAJDEEP10/StepIn_Mini_Project_273563&utm_campaign=Badge_Grade_Settings)
 | [![C/C++ CI - Build Status](https://github.com/MRAJDEEP10/StepIn_Mini_Project_273563/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/MRAJDEEP10/StepIn_Mini_Project_273563/actions/workflows/c-cpp.yml)     |[![Code Quality - Static Code - Cppcheck](https://github.com/MRAJDEEP10/StepIn_Mini_Project_273563/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/MRAJDEEP10/StepIn_Mini_Project_273563/actions/workflows/cppcheck.yml)   |[![Unit Testing - Unity](https://github.com/MRAJDEEP10/StepIn_Mini_Project_273563/actions/workflows/unity.yml/badge.svg)](https://github.com/MRAJDEEP10/StepIn_Mini_Project_273563/actions/workflows/unity.yml)    | [![Contribution Check - Git Inspector](https://github.com/MRAJDEEP10/StepIn_Mini_Project_273563/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/MRAJDEEP10/StepIn_Mini_Project_273563/actions/workflows/gitinspector.yml)    |
 
 ## Folder Structure
