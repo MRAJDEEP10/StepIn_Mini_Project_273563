@@ -54,5 +54,8 @@ test:$(BUILD)
 	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT).$(EXEC)
 	./$(TEST_OUTPUT).$(EXEC)
 
+valgrind:$(BUILD)
+	gcc $(TEST_VALGRIND) $(INC) -o build/testTictactoe.out
+
 clean:
 	$(RM) $(call FixPath,$(BUILD)/*)
