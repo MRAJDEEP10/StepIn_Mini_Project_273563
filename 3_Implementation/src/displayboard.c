@@ -11,11 +11,6 @@
 #include<stdio.h>
 #include "tictactoe.h"
 
-/**
- * @brief To Display TicTacToe Board
- * 
- * @param square 
- */
 
 void displayboard(char square[])
 {

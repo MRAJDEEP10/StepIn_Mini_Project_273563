@@ -1,2 +1,4 @@
-@mainpage TicTacToe Application by Mihir Rajdeep 
-@subpage tictactoe_operations.h
+# HeaderDocumentation
+
+@mainpage TicTacToe Application by Mihir Rajdeep
+@subpage tictactoe.h

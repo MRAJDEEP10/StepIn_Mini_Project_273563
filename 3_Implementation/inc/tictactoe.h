@@ -13,18 +13,19 @@
 #define __TICTACTOE_H__
 
 /**
- * @brief 
+ * @brief To Check Game Status(Whether A Player has won the Game, The Game ended in a draw or if the Game is still in progress.)
  * 
  * @param square 
- * @return char 
+ * @return int 
  */
 int checkresult(char square[]);
 
 /**
- * @brief 
+ * @brief To Display TicTacToe Board
  * 
  * @param square 
  */
+
 void displayboard(char square[]);
 
 
