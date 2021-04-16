@@ -26,17 +26,17 @@ void displayboard(char square[])
 
 
     printf("     |     |     \n");
-    printf("  %c  |  %c  |  %c \n", square[1], square[2], square[3]);
+    printf("  %c  |  %c  |  %c \n", square[0], square[1], square[2]);
 
     printf("_____|_____|_____\n");
     printf("     |     |     \n");
 
-    printf("  %c  |  %c  |  %c \n", square[4], square[5], square[6]);
+    printf("  %c  |  %c  |  %c \n", square[3], square[4], square[5]);
 
     printf("_____|_____|_____\n");
     printf("     |     |     \n");
 
-    printf("  %c  |  %c  |  %c \n", square[7], square[8], square[9]);
+    printf("  %c  |  %c  |  %c \n", square[6], square[7], square[8]);
 
     printf("     |     |     \n\n");
 }

@@ -43,22 +43,22 @@ int main()
  * 
  */
 void test_checkplayer1win(void){
-  char square1[10] = {'0','O','X','X','X','O','O','X','O','O' };
+  char square1[9] = {'O','X','X','X','O','O','X','O','O' };
   TEST_ASSERT_EQUAL(1,checkresult(square1));
   
 }
 
 void test_checkplayer2win(void){
-  char square2[10] = {'0','X','O','O','O','X','X','O','X','X'};
+  char square2[9] = {'X','O','O','O','X','X','O','X','X'};
   TEST_ASSERT_EQUAL(1,checkresult(square2));
 }
 
 void test_checkdraw(void){
-  char square3[10] = {'0','X','O','X','X','O','O','O','X','X'};
+  char square3[9] = {'X','O','X','X','O','O','O','X','X'};
   TEST_ASSERT_EQUAL(0,checkresult(square3));
 }
 
 void test_activegame(void){
-  char square4[10]={'0','X','2','3','4','5','6','O','8','X'};
+  char square4[9]={'X','2','3','4','5','6','O','8','X'};
   TEST_ASSERT_EQUAL(-1,checkresult(square4));
 }
